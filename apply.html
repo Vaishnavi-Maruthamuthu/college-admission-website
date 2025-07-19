@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apply </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1> KIT-Kalaignarkarunanidhi Institute of Technology</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="apply.html">Apply</a>
+      <a href="contact.html">Contact</a>
+      <a href="review.html">Review</a>
+      
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <h2>Admission Application Form</h2>
+    <form class="application-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label for="course">Select Course</label>
+      <select id="course" name="course" required>
+        <option value="">--Choose--</option>
+        <option value="cse">Computer Science</option>
+        <option value="ece">Electronics</option>
+        <option value="mech">Mechanical</option>
+        <option value="civil">Civil</option>
+      </select>
+
+      <label for="message">Why do you want to join?</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; KIT-Kalaignarkarunanidhi Institute of Technology</p>
+  </footer>
+</body>
+</html>
